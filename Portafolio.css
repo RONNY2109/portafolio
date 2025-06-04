@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1d1d;
+    
+}
+
+
+
+.padre{
+   
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 130%;
+    vertical-align: baseline;
+  
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+
+}
+
+.logo{
+    margin-left: 30px;
+    mix-blend-mode: difference;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+ display: block;
+ padding: 20px 20px;
+ color: #fff;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 20px;
+
+}
+
+.navbar a:hover{
+    background: #484848;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+   
+    
+    
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    
+    
+    
+}
+
+
+.tittle{
+    height: 60vh !important;
+    background-image: url("https://w.wallhaven.cc/full/d6/wallhaven-d6ypdm.jpg");
+    background-attachment: fixed;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+   box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.tittle{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 90px;
+    height: 200px;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding: 0px 200px;
+   
+}
+ 
+.text{
+    color: #fff;
+}
+
+.subTitulo{
+    color: #fff;
+}
+
+.tittle-pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_mi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 200px;
+    
+
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background:#1f1d1d ;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #000000de;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.blog-img{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.3s;
+    
+
+}
+
+img. {
+  width: 300px; /* Tamaño inicial */
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-img img:hover {
+  transform: scale(1.5); /* Zoom trifásico 🔥 */
+}
+
+
+ 
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 3px solid #000000de;
+    color: #fff;
+    text-decoration: none;
+    background: #000000de;
+    border-radius: 2rem;
+    
+    
+}
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+.btn-home{
+    margin: 0 10px;
+}
+
+
+.contain{
+    display: flex;
+    justify-content: center;
+    padding: 30px 200px;
+}
+.contain{
+   
+}
+
+.slider{
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.slider .slider-track{
+    display: flex;
+    justify-content: center;
+      display: flex;
+    width: calc(200px * 6);
+    animation: scroll 10s ease-in-out infinite alternate;
+    -webkit-animation: scroll 10s ease-in-out infinite alternate;
+}
+
+.slider-track {
+    mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+}
+.slider .slide{
+    width: 200px;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(250px);
+    }
+    100% {
+        transform: translateX(-250px );
+    }
+}
+
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+     box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    
+}
+
+.projects{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.info{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 15px 200px;
+}
+.perfilGIT{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+     box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    
+
+}
+.decoracion{
+     height: 25vh !important;
+    background-image: url("https://w.wallhaven.cc/full/d6/wallhaven-d6ypdm.jpg");
+    background-attachment: fixed;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+   box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+/* Adaptar imágenes de perfil */
+.perfil, .perfilGIT {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Ajustar el contenedor de proyectos */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .tittle {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .sobre_mi, .education {
+        padding: 20px;
+    }
+
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-home {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+    }
+    .head{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .padre {
+        padding: 10px;
+    }
+
+    .tittle h1, .tittle h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .perfil {
+        max-width: 150px;
+    }
+
+    .box-container {
+        gap: 10px;
+    }
+}
